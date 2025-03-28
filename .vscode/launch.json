@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MaximumNumberofPointsFromGridQueries",
+            "request": "launch",
+            "mainClass": "MaximumNumberofPointsFromGridQueries",
+            "projectName": "coding_d5927aad"
+        },
+        {
+            "type": "java",
+            "name": "Bellman",
+            "request": "launch",
+            "mainClass": "Bellman",
+            "projectName": "coding_d5927aad"
+        },
+        {
+            "type": "java",
             "name": "MinimumOperationToMakeUniGrid",
             "request": "launch",
             "mainClass": "MinimumOperationToMakeUniGrid",

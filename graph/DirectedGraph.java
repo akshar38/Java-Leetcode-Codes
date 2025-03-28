@@ -46,4 +46,20 @@ public class DirectedGraph {
 
         graph.get(3).add(new Edge(3, 4, 600));
     }
+    void creatNegativeWeightGraph(){
+        graph = new ArrayList<List<Edge>>(); // Specify the type explicitly
+        for (int i = 0; i < 5; i++) {   // initialize for 6 vertices
+            graph.add(new ArrayList<Edge>()); // Specify the type explicitly
+        }
+        graph.get(0).add(new Edge(0, 1, 2));
+        graph.get(0).add(new Edge(0, 2, 4));
+
+        graph.get(1).add(new Edge(1, 2, -4));
+        
+        graph.get(2).add(new Edge(2, 3, 2));
+
+        graph.get(3).add(new Edge(3, 4, 4));
+
+        graph.get(3).add(new Edge(4, 1, -1));
+    }
 }
