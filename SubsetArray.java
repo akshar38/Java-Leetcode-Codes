@@ -1,4 +1,5 @@
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
 public class SubsetArray {
     public static void main(String[] args) {
         int[] arr={1,-3,-3,-3};

@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SolvingQuesWithBrainPower",
+            "request": "launch",
+            "mainClass": "SolvingQuesWithBrainPower",
+            "projectName": "coding_d5927aad"
+        },
+        {
+            "type": "java",
+            "name": "TextJustification",
+            "request": "launch",
+            "mainClass": "TextJustification",
+            "projectName": "coding_d5927aad"
+        },
+        {
+            "type": "java",
+            "name": "PutMarblesInBag",
+            "request": "launch",
+            "mainClass": "PutMarblesInBag",
+            "projectName": "coding_d5927aad"
+        },
+        {
+            "type": "java",
             "name": "MaximumNumberofPointsFromGridQueries",
             "request": "launch",
             "mainClass": "MaximumNumberofPointsFromGridQueries",

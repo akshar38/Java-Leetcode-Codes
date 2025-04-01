@@ -1,6 +1,5 @@
-
-import java.util.*;
-
+import java.util.ArrayList;
+import java.util.List;
 public class WeightGraphPathCost {
     public static void main(String[] args) {
         int[][] edges={{0,1,7},{1,3,7},{1,2,1}};
