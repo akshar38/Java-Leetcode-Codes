@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LargestDivisibleSubset",
+            "request": "launch",
+            "mainClass": "LargestDivisibleSubset",
+            "projectName": "coding_d5927aad"
+        },
+        {
+            "type": "java",
+            "name": "MinimumWIndowSubString",
+            "request": "launch",
+            "mainClass": "MinimumWIndowSubString",
+            "projectName": "coding_d5927aad"
+        },
+        {
+            "type": "java",
+            "name": "MaximumValueOfTriplet",
+            "request": "launch",
+            "mainClass": "MaximumValueOfTriplet",
+            "projectName": "coding_d5927aad"
+        },
+        {
+            "type": "java",
+            "name": "GrayCode",
+            "request": "launch",
+            "mainClass": "GrayCode",
+            "projectName": "coding_d5927aad"
+        },
+        {
+            "type": "java",
             "name": "SolvingQuesWithBrainPower",
             "request": "launch",
             "mainClass": "SolvingQuesWithBrainPower",

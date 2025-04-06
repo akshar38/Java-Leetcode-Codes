@@ -1,7 +1,3 @@
-import java.util.Stack;
-
-import javax.swing.tree.TreeNode;
-
 public class BinaryNode {
     int val;
     int height;
