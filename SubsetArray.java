@@ -2,7 +2,8 @@ import java.util.ArrayList;
 import java.util.List;
 public class SubsetArray {
     public static void main(String[] args) {
-        int[] arr={1,-3,-3,-3};
+    
+        int[] arr={1,4,4,4};
         //List<List<Integer>> r=subset(arr);
         List<Integer> i=new ArrayList<>();
         
@@ -13,6 +14,7 @@ public class SubsetArray {
         }
     }
     static List<List<Integer>> subset(int[] arr){
+        boolean[] visit=new boolean[100000];
         List<List<Integer>> outer=new ArrayList<>();
         outer.add(new ArrayList<>());
         for(int num:arr){
@@ -32,12 +34,13 @@ public class SubsetArray {
         outer.add(new ArrayList<>());
         int start=0;
         int end=0;
+        boolean[] visit=new boolean[100000];
         for(int i=0;i<arr.length;i++){
             start=0;
-            if(i>0 && arr[i]==arr[i-1]){
+            if(visit[arr[i]]){
                 start=end;
             }
-
+            visit[arr[i]]=true;
             end=outer.size();
             int n=outer.size();
             for(int j=start;j<n;j++){
