@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CountPowerfullIntegers",
+            "request": "launch",
+            "mainClass": "CountPowerfullIntegers",
+            "projectName": "coding_d5927aad"
+        },
+        {
+            "type": "java",
+            "name": "ValidNumber",
+            "request": "launch",
+            "mainClass": "ValidNumber",
+            "projectName": "coding_d5927aad"
+        },
+        {
+            "type": "java",
             "name": "LargestDivisibleSubset",
             "request": "launch",
             "mainClass": "LargestDivisibleSubset",
