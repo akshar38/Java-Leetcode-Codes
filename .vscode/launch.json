@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RestoreIp",
+            "request": "launch",
+            "mainClass": "RestoreIp",
+            "projectName": "coding_d5927aad"
+        },
+        {
+            "type": "java",
+            "name": "CountSymmetricInteger",
+            "request": "launch",
+            "mainClass": "CountSymmetricInteger",
+            "projectName": "coding_d5927aad"
+        },
+        {
+            "type": "java",
             "name": "CountPowerfullIntegers",
             "request": "launch",
             "mainClass": "CountPowerfullIntegers",
