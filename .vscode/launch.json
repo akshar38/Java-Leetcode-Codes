@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CountGoodInteger",
+            "request": "launch",
+            "mainClass": "CountGoodInteger",
+            "projectName": "coding_d5927aad"
+        },
+        {
+            "type": "java",
+            "name": "DecodeWays",
+            "request": "launch",
+            "mainClass": "DecodeWays",
+            "projectName": "coding_d5927aad"
+        },
+        {
+            "type": "java",
             "name": "RestoreIp",
             "request": "launch",
             "mainClass": "RestoreIp",
