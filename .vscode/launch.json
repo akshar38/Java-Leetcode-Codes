@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "InterleavingString",
+            "request": "launch",
+            "mainClass": "InterleavingString",
+            "projectName": "coding_d5927aad"
+        },
+        {
+            "type": "java",
+            "name": "CountHidden",
+            "request": "launch",
+            "mainClass": "CountHidden",
+            "projectName": "coding_d5927aad"
+        },
+        {
+            "type": "java",
             "name": "CountGoodInteger",
             "request": "launch",
             "mainClass": "CountGoodInteger",
